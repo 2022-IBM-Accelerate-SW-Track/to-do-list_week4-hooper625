@@ -142,10 +142,7 @@ Upon completion of Week 4 Lab Project, all the necessary components and function
 1. Navigate to `package.json` file located in our project's root directory. **Hint:** Essentially, this is the directory where our `src` and `public` folders are located.
    + Add the following scripts to the `scripts` property and save the file.
      ```
-     "install-backend": "cd backend && npm install",
-     "install-both": "npm install & npm run install-backend",
-     "backend": "cd backend && node index.js",
-     "start-both": "npm run backend & npm start"
+   
      ```
    + The `package.json` file `scripts` property should now look similar to the screen shot shown below:
      ![Screen Shot 2022-06-24 at 12 31 47 AM](https://user-images.githubusercontent.com/57464095/175486138-37ee5abb-1409-4305-aeaa-eb821dff3781.png)
